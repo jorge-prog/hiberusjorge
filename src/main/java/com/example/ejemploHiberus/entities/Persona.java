@@ -12,12 +12,13 @@ import javax.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.Id;
+
 
 /**
  *
  * @author Usuario
  */
+import javax.persistence.Id;
 @Entity
 @Table(name ="personas")
 @Data
